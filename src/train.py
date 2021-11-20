@@ -77,7 +77,7 @@ parser.add_argument('--epochs', type=int, default= 300,
                     help='Number of epochs to train.')
 parser.add_argument('--batch-size', type=int, default = 100, # note: should be divisible by sample size, otherwise throw an error
                     help='Number of samples per batch.')
-parser.add_argument('--lr', type=float, default=3e-3,  # basline rate = 1e-3
+parser.add_argument('--lr', type=float, default=3e-3,  # baseline rate = 1e-3
                     help='Initial learning rate.')
 parser.add_argument('--encoder-hidden', type=int, default=64,
                     help='Number of hidden units.')
